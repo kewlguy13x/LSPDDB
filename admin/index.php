@@ -84,11 +84,11 @@
             if (isset($_POST['login']) && !empty($_POST['username']) 
                && !empty($_POST['password'])) {
 				
-               if ($_POST['username'] == 'jcrpadmin' && 
-                  $_POST['password'] == 'p@22w0rd') {
+               if ($_POST['username'] == '[CHANGE ME (USERNAME)]' && 
+                  $_POST['password'] == '[CHANGE ME (PASSWORD)]') {
                   $_SESSION['valid'] = true;
                   $_SESSION['timeout'] = time();
-                  $_SESSION['username'] = 'kewlguy13x';
+                  $_SESSION['username'] = 'Admin';
                   
                   echo 'You have entered valid use name and password';
 				  echo '<meta http-equiv="refresh" content="1; url=admin.php" />';
